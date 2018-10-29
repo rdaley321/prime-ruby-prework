@@ -1,5 +1,5 @@
 def prime? n
-  if n <= 0 
+  if n <= 1 
     return false
   end
   for d in 2..(n - 1)
