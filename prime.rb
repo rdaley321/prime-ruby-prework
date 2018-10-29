@@ -2,7 +2,7 @@ def prime? n
   if n <= 1 
     return false
   end
-  for d in 2..(n - 1)
+  for d in 1..Math.sqrt(n)
    if (n % d) == 0
     return false
    end
